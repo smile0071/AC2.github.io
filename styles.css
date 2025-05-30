@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	background: url("img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #fff;
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 5rem 1rem;
+	text-align: center;
+}
+
+header h1 {
+	font-family: "Cinzel", serif;
+	font-size: 4rem;
+	margin: 0;
+	color: #fff;
+}
+
+header p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: 1rem auto;
+	color: #ccc;
+}
+
+.btn {
+	background: #e63946;
+	color: #fff;
+	padding: 0.7rem 1.5rem;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: background 0.3s ease;
+}
+
+.btn:hover {
+	background: #b32e38;
+}
+
+nav {
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+nav a {
+	color: #f4f4f4;
+	margin: 0 1.5rem;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+nav a:hover {
+	color: #e63946;
+}
+
+section {
+	padding: 4rem 2rem;
+	max-width: 1000px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 15px;
+	margin-bottom: 2rem;
+}
+
+section h2 {
+	font-family: "Cinzel", serif;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #fff;
+}
+
+section img {
+	margin: 1rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+	background: #111;
+	color: #999;
+	text-align: center;
+	padding: 1rem;
+}
